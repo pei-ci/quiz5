@@ -1,23 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
+import MultiButton from './cgu_multiButton'
+import Hello_CGU from './cgu_hello'
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div>
+         { Hello_CGU()}
+      </div>
+      <div>
+         { MultiButton(10)}
+      </div>
     </div>
   );
 }
