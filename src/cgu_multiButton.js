@@ -12,4 +12,4 @@ const MultiButton=(num)=>{
   return output;
 }
 
-export default MultiButton
+export default MultiButton;
